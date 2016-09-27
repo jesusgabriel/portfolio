@@ -1,0 +1,89 @@
+body {
+  background-image: url("../img/fondos_cristianos_27.jpg");
+
+}
+
+.wrapper {
+  margin: auto;
+
+}
+
+header {
+  text-align: center;
+}
+
+header h1,
+header nav {
+display: inline-block;
+}
+
+header h1{
+  color: white;
+width: 320px;
+text-align: center;
+}
+header nav {
+  min-width: 320px;
+width: calc(100% - 320px);
+
+  }
+
+header nav ul  {
+padding: 0;
+min-width: 320px;
+text-align: center;
+}
+@media (min-width: 658px){
+  header nav ul {
+    text-align: right;
+  }
+}
+
+
+
+header nav ul li  {
+  margin-right: 20px;
+list-style: none;
+display: inline-block;
+}
+
+header nav ul li a {
+
+}
+
+header nav ul li a:visited {
+  color: #add;
+}
+
+main {
+max-width: 90vw;
+margin: auto;
+
+}
+
+#About img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  color: gray;
+}
+
+.Project {
+  border: 1px solid #ccc;
+  margin:20px auto 0;
+  max-width: 300px;
+  text-align: center;
+  background-color: #fff;
+  height: 100px;
+}
+.Project a{
+  padding: 5px 10px 5px 10px;
+  background-color: #ccc;
+  text-decoration: none;
+   border-radius: 4px;
+   margin: 10px;
+}
