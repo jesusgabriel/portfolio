@@ -1,0 +1,41 @@
+@media (min-width: 658px) {
+    header #menu-open {
+        display: none;
+    }
+    header h2, header #menu-close {
+        display: none;
+    }
+    header h1, header nav {
+        display: inline-block;
+    }
+    header h1 {
+        width: 300px;
+        text-align: left;
+        ;
+        padding: 0 0 0 20px;
+    }
+    header nav {
+        position: relative;
+        min-width: 320px;
+        min-height: initial;
+        width: calc(100% - 320px);
+        text-align: right;
+        background-color: transparent;
+        left: 0;
+        
+    }
+    header nav h2 {
+      display: none;
+    }
+    header nav ul {
+        text-align: right;
+    }
+    header nav ul li {
+        display: inline-block;
+        }
+    header nav ul li a {
+        margin: 0;
+        padding: 5px 15px;
+
+    }
+}
