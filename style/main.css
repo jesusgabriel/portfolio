@@ -1,6 +1,6 @@
 body {
-    background-image: url("../img/fondos_cristianos_27.jpg");
     background-size: cover;
+    background-color: #424242;
 }
 
 .wrapper {
@@ -50,15 +50,15 @@ header nav {
 
 header nav h2 {
     display: inline-block;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 5px;
 }
 
 header nav #menu-close {
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 5px;
+    top: 5px;
 }
 
 header nav ul {
@@ -67,28 +67,33 @@ header nav ul {
 
 header nav ul li {
     list-style-type: none;
+    font-size: 2rem;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #777;
     margin: 0 0 0 0;
-    padding: 10px;
+    padding: 5px;
     display: block;
     transition: all .2s;
-    border-top: 2px solid transparent;
+    border-top: 1px solid transparent;
     border-bottom: 2px solid transparent;
+    border-radius: 3px;
 }
 
 header nav ul li a:visited {
     color: #777;
-}
+  }
 
 header nav ul li a:hover {
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
     text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Amita', cursive;
+    font-style: italic;
     background-color: #ddd;
+    text-decoration: underline;
 }
 
 main {
@@ -98,18 +103,7 @@ main {
 
 main section h2 {
     text-align: center;
-    color: white;
-}
-
-#About img {
-    width: 100%;
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-}
-
-p {
-    color: gray;
+    color: lightgray;
 }
 
 .Project {
@@ -123,10 +117,9 @@ p {
 }
 
 .Project a {
-    padding: 5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
     background-color: #69c;
-    text-decoration: none;
-    border-radius: 4px;
+    text-decoration:inherit;
     margin: 10px;
     border-radius: 4px;
     transition: all .2s;
