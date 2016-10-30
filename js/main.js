@@ -19,6 +19,8 @@ $(document).ready(function() {
         });
 
     }
+    window.open('#About', '_blank', 'toolbar=yes, location=yes, status=yes, menubar=yes, scrollbars=yes');
+
 
 
 });
