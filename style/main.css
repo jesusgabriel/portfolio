@@ -11,6 +11,12 @@ header {
     text-align: center;
 }
 
+h4{
+  height:4rem;
+
+
+}
+
 header #menu-open {
     width: 30px;
     text-align: center;
@@ -36,9 +42,6 @@ header h1, header nav {
 header h1 {
     color: gray;
     width: 320px;
-
-
-
 }
 
 header nav {
@@ -64,10 +67,11 @@ header nav #menu-close {
     top: 5px;
 }
 
-#logo{
-  text-align: center;
-  float: left;
+#logo {
+    text-align: center;
+    float: left;
 }
+
 header nav ul {
     padding: 0;
 }
@@ -92,22 +96,25 @@ header nav ul li a {
 
 header nav ul li a:visited {
     color: #777;
-  }
+}
 
 header nav ul li a:hover {
-  color: #252525;
+    color: #252525;
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
     text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.5);
-    /*font-family: 'Amita', cursive;*/
-    /*font-style: italic;*/
+    font-family: 'Amita', cursive;*
+    font-style: italic;
     background-color: #ddd;
     text-decoration: underline;
 }
 
-main {
+main h4 :hover {
     max-width: 90vw;
     margin: auto;
+    font-family: 'Amita', cursive;*
+    font-style: italic;
+    text-decoration: underline;
 }
 
 main section h2 {
@@ -126,7 +133,7 @@ main section h2 {
 .Project a {
     padding: 5px 5px 5px 5px;
     background-color: #69c;
-    text-decoration:inherit;
+    text-decoration: inherit;
     margin: 10px;
     border-radius: 4px;
     transition: all .2s;
